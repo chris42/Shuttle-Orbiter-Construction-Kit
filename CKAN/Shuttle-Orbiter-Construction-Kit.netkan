@@ -1,0 +1,39 @@
+{
+  "spec_version"        : "v1.4",
+  "identifier"          : "Shuttle-Orbiter-Construction-Kit",
+  "$kref"               : "#/ckan/github/chris42/Shuttle-Orbiter-Construction-Kit",
+  "abstract"            : "Provides a set of parts designed to emulate the NASA Space Shuttle Orbiter",
+  "author"              : "benjee10",
+  "license"             : "restricted",
+  "release_status"      : "stable",
+  "$vref"               : "#/ckan/ksp-avc",
+  "resources": {
+    "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/186023-180-1100-shuttle-orbiter-construction-kit-stockalike-space-shuttle-orbiter-tubes-v110/",
+    "repository": "https://github.com/chris42/Shuttle-Orbiter-Construction-Kit"
+  },
+  "depends": [
+      { "name" : "Benjee10sharedAssets" },
+      { "name" : "ModuleManager" },
+      { "name" : "B9PartSwitch" }
+  ],
+  "suggests": [
+      { "name" : "reDIRECT" },
+      { "name" : "HabTech2" }
+  ],
+  "install" : [
+      { "find" : "Benjee10_shuttleOrbiter",
+        "install_to" : "GameData"
+      },
+      { "find" : "ColumbiaWings",
+        "install_to" : "GameData/Benjee10_shuttleOrbiter"
+      },
+      { "find" : "htRobotics",
+        "install_to" : "GameData"
+      }
+  ],
+  "tags": [
+      "crewed",
+      "parts",
+      "science"
+]
+}

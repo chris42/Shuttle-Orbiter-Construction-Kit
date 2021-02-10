@@ -1,0 +1,29 @@
+
+{
+    "NAME":"Shuttle-Orbiter-Construction-Kit",
+    "URL":"https://raw.githubusercontent.com/chris42/Shuttle-Orbiter-Construction-Kit/cleanup/GameData/Benjee10_shuttleOrbiter/Version/Shuttle-Orbiter-Construction-Kit.version",
+    "DOWNLOAD":"https://github.com/chris42/Shuttle-Orbiter-Construction-Kit/releases",
+    "VERSION":
+    {
+        "MAJOR":1,
+        "MINOR":1,
+        "PATCH":6,
+        "BUILD":0
+    },
+    "KSP_VERSION":
+    {
+        "MAJOR":1,
+        "MINOR":10,
+        "PATCH":1
+    },
+    "KSP_VERSION_MIN":{
+        "MAJOR":1,
+        "MINOR":8,
+        "PATCH":0
+    },
+    "KSP_VERSION_MAX":{
+        "MAJOR":1,
+        "MINOR":10,
+        "PATCH":99
+    }
+}
